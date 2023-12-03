@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 int main()
 {
@@ -9,6 +10,8 @@ int main()
     {
         if (str[x] == 'a' || str[x] == 'e' || str[x] == 'i' || str[x] == 'o' || str[x] == 'u')
             vow++;
+        else if (str[x]>='0' && str[x]<='9')
+             dig++;
         else if (str[x] == ' ')
             space++;
         else
@@ -20,10 +23,9 @@ int main()
     return 0;
 }
 
-
 // output 
 // enter string :hello world 1234
 
 //  no. of vowel=3
 //  no. of spaces=2
-//  no. of consonant=11
+//  no. of consonant=7
