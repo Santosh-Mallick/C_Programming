@@ -23,3 +23,8 @@ int main()
 
    return 0;
 }
+
+// Output
+// Input a string
+// Karim City College
+// egelloC ytiC miraK
