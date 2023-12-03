@@ -15,7 +15,7 @@ int main() {
     char ch; 
      
     printf("Enter a string: "); 
-    scanf("%[^\n]%*c", str); // Reading the whole line, including spaces 
+    scanf("%[^\n]%*c", str);
     printf("Enter the character to find occurrences of: "); 
     scanf("%c", &ch); 
  
