@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "ASSIGN1-.C": "cpp",
+        "ASSIGN12.C": "cpp",
+        "ASSIGN13.C": "cpp",
+        "ASSIGN13(With loop).C": "cpp",
+        "ASSIGN14.C": "cpp",
+        "ASSIGN15.C": "cpp",
+        "ASSIGN16.C": "cpp",
+        "ASSIGN17.C": "cpp",
+        "ASSIGN22.C": "cpp",
+        "ASSIGN23.C": "cpp",
+        "ASSIGN24.C": "cpp",
+        "ASSIGN25.C": "cpp",
+        "ASSIGN31.C": "cpp",
+        "ASSIGN32.C": "cpp",
+        "ASSIGN33.C": "cpp",
+        "ASSIGN34.C": "cpp",
+        "macro.C": "cpp",
+        "3.C": "cpp",
+        "2.C": "cpp",
+        "1.C": "cpp",
+        "5.C": "cpp",
+        "4.C": "cpp",
+        "7.C": "cpp",
+        "6.C": "cpp",
+        "3(With loop).C": "cpp",
+        "3(Without Loop).C": "cpp"
+    }
+}
