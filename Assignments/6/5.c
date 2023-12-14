@@ -42,6 +42,7 @@
             scanf("%s",str1);
             printf("\n Enter Second String : ");
             scanf("%s",str2);
+            printf("we are copying String 1 to String 2 \n");
             printf("String Copied %s",strcpy(str2,str1));
             break;
 
