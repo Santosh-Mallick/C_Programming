@@ -69,3 +69,15 @@
     }
     return 0;
  }
+
+//  output :
+//  Menu
+//  1: Find length
+//  2: Find reverse of a string
+//  3: Concatenate
+//  4: Copy string
+//  5: Compare String
+//  Enter Your Choice : 5
+// Enter a String : hello
+// Enter second String : hello
+// Strings are same
