@@ -1,28 +1,32 @@
-#include<stdio.h>
+#include <stdio.h>
 
-#include<math.h>
-int main ()
+#include <math.h>
+int main()
 {
-int num,og,rem,n=0;
-float result = 0.0;
+  int num, og, rem, n = 0;
+  float result = 0.0;
 
+  printf("Enter a Integer : ");
+  scanf("%d", &num);
+  og = num;
 
-printf("Enter a Integer : ");
-scanf("%d",&num);
-og = num;
-
-for(og=num; og!=0; ++n) {
-og /= 10;
-}
-for(og=num; og!=0; og /= 10) {
-rem = og % 10;
-result += pow(rem,n);
-}
-if((int)result == num)
-  printf("%d is an Armstrong Number.",num);
+  for (og = num; og != 0; ++n)
+  {
+    og /= 10;
+  }
+  for (og = num; og != 0; og /= 10)
+  {
+    rem = og % 10;
+    result += pow(rem, n);
+  }
+  if ((int)result == num)
+    printf("%d is an Armstrong Number.", num);
   else
-  printf("%d is not an Armstrong Number.",num);
+    printf("%d is not an Armstrong Number.", num);
 
-
-return 0;
+  return 0;
 }
+
+// Output
+// Enter a Integer : 1634
+// 1634 is an Armstrong Number.

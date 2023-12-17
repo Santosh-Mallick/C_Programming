@@ -1,19 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
-    int n,res=1;
+    int n, res = 1;
     printf("Enter a Number : ");
-    scanf("%d",&n);
+    scanf("%d", &n);
 
-    for (int i = n; i>=1; i--)
+    for (int i = n; i >= 1; i--)
     {
-        res = res*i;
+        res = res * i;
     }
-    printf("\n The Factorial of %d is %d",n,res);
+    printf("\n The Factorial of %d is %d", n, res);
     return 0;
 }
-
 
 // Output
 // Enter a Number : 5
