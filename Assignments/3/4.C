@@ -1,29 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main()
 {
-    int i, f = 0, s = 1, n, seq;
-    printf("Enter The length of fibonacci Series : ");
-    scanf("%d", &n);
-    printf("%d\n%d\n", f, s);
+    int n,res=1;
+    printf("Enter a Number : ");
+    scanf("%d",&n);
 
-    for (i = 2; i <= n; i++)
+    for (int i = n; i>=1; i--)
     {
-        seq = f + s;
-        f = s;
-        s = seq;
-        printf("%d\n", seq);
+        res = res*i;
     }
+    printf("\n The Factorial of %d is %d",n,res);
     return 0;
 }
 
-// Enter The length of fibonacci Series : 8 
-// 0
-// 1
-// 1
-// 2
-// 3
-// 5
-// 8
-// 13
-// 21
+
+// Output
+// Enter a Number : 5
+
+//  The Factorial of 5 is 120
