@@ -40,6 +40,9 @@ int main() {
 // Hello From Mars
 
 
+//Explanation(isko nahi likna hai)
+// This program reads data from the keyboard, writes it to a file named "input.txt", reads the same data from the file, and displays it on the screen.
+
 //NOTE(isko nahi likna hai)
 //Q. what is stderr?
 //A. stderr refers to the standard error stream in C. It's a predefined file stream in the C standard library that is typically used to output error messages and diagnostics.
