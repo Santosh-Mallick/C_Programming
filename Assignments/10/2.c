@@ -34,6 +34,4 @@ int main() {
 
 //NOTE(isko nahi likna hai)
 //Q. What is EOF?
-//A. In the code provided, EOF stands for "End of File". It's a constant defined in the <stdio.h> header file and typically has a value of -1.
-// In the context of file input/output in C, when you read from a file using functions like fgetc() or fgets(), the value returned by these functions will be EOF when the end of the file is reached. This signals that there are no more characters to read from the file.
-// So, in the while loop condition while ((ch = fgetc(file)) != EOF), the loop continues as long as fgetc() doesn't return EOF, meaning there are still characters to read from the file. Once EOF is encountered, the loop exits.
+//A. In the code provided, EOF stands for "End of File". It's a constant defined in the <stdio.h> header file and typically has a value of -1.In the context of file input/output in C, when you read from a file using functions like fgetc() or fgets(), the value returned by these functions will be EOF when the end of the file is reached. This signals that there are no more characters to read from the file.So, in the while loop condition while ((ch = fgetc(file)) != EOF), the loop continues as long as fgetc() doesn't return EOF, meaning there are still characters to read from the file. Once EOF is encountered, the loop exits.
