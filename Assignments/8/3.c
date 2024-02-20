@@ -3,12 +3,7 @@
 struct employee {
   int employee_id;
   char employee_name[30];
-  float basic_salary;
-  float pf;
-  float hra;
-  float da;
-  float gross_salary;
-  float net_salary;
+  float basic_salary,pf,hra,da,gross_salary,net_salary;
 };
 
 int main() {
@@ -50,47 +45,47 @@ int main() {
 }
 // Output
 // Details of all employees:
-// Employee ID: 25
-// Employee Name: a
-// Basic Salary: 10000.00
-// PF: 2500.00
-// HRA: 3600.00
-// DA: 1000.00
-// Gross Salary: 14600.00
-// Net Salary: 12100.00
-
-// Employee ID: 26
-// Employee Name: b
-// Basic Salary: 5800.00
-// PF: 2600.00
-// HRA: 850.00
-// DA: 2000.00
-// Gross Salary: 8650.00
-// Net Salary: 6050.00
-
-// Employee ID: 261
-// Employee Name: g
-// Basic Salary: 14000.00
-// PF: 2600.00
-// HRA: 1200.00
-// DA: 1500.00
-// Gross Salary: 16700.00
-// Net Salary: 14100.00
-
-// Employee ID: 7081068
-// Employee Name: n
-// Basic Salary: 16000.00
-// PF: 2400.00
-// HRA: 1500.00
-// DA: 17.00
-// Gross Salary: 17517.00
-// Net Salary: 15117.00
-
-// Employee ID: 24
-// Employee Name: m
+// Employee ID: 1002
+// Employee Name: Praveen
 // Basic Salary: 15000.00
-// PF: 2600.00
-// HRA: 3250.00
-// DA: 2480.00
-// Gross Salary: 20730.00
-// Net Salary: 18130.00
+// PF: 2550.00
+// HRA: 1000.00
+// DA: 500.00
+// Gross Salary: 16500.00
+// Net Salary: 13950.00
+
+// Employee ID: 1003
+// Employee Name: Ankit
+// Basic Salary: 18000.00
+// PF: 2730.00
+// HRA: 1100.00
+// DA: 600.00
+// Gross Salary: 19700.00
+// Net Salary: 16970.00
+
+// Employee ID: 1004
+// Employee Name: Amit
+// Basic Salary: 16000.00
+// PF: 2300.00
+// HRA: 1200.00
+// DA: 400.00
+// Gross Salary: 17600.00
+// Net Salary: 15300.00
+
+// Employee ID: 1005
+// Employee Name: Kabir
+// Basic Salary: 15500.00
+// PF: 2650.00
+// HRA: 1020.00
+// DA: 550.00
+// Gross Salary: 17070.00
+// Net Salary: 14420.00
+
+// Employee ID: 1006
+// Employee Name: Aman
+// Basic Salary: 19000.00
+// PF: 2120.00
+// HRA: 1200.00
+// DA: 700.00
+// Gross Salary: 20900.00
+// Net Salary: 18780.00
