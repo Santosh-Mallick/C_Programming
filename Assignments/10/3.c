@@ -36,5 +36,5 @@ int main() {
 //File copied successfully.
 
 
-//Explanation(isko nahi likna hai)
+//EXPLANATION(isko nahi likna hai)
 //This program opens a source file named "source.txt" for reading and a destination file named "destination.txt" for writing. Then, it copies the contents of the source file to the destination file character by character using fgetc() and fputc() functions. Finally, it closes both files.

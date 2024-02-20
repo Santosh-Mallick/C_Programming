@@ -34,14 +34,14 @@ int main() {
 }
 
 // OUTPUT
-
 // Enter data: Hello From Mars
 // Data read from input file:
 // Hello From Mars
 
 
-//Explanation(isko nahi likna hai)
+//EXPLANATION(isko nahi likna hai)
 // This program reads data from the keyboard, writes it to a file named "input.txt", reads the same data from the file, and displays it on the screen.
+
 
 //NOTE(isko nahi likna hai)
 //Q. what is stderr?
@@ -50,5 +50,4 @@ int main() {
 // In the context of the code:
 // fprintf(stderr, "Error opening file.\n");
 
-// Here, fprintf() is used to print the error message "Error opening file." to the stderr stream. This is commonly done when there is an issue with file handling, such as failing to open a file for reading or writing. By printing the error message to stderr, it separates error messages from normal output, making it easier to distinguish and redirect error messages separately from the standard output.
-// Using stderr ensures that error messages are displayed promptly, even if standard output is redirected to a file or another program. It's a good practice to use stderr for error messages to differentiate them from regular program output.
+// Here, fprintf() is used to print the error message "Error opening file." to the stderr stream. This is commonly done when there is an issue with file handling, such as failing to open a file for reading or writing. By printing the error message to stderr, it separates error messages from normal output, making it easier to distinguish and redirect error messages separately from the standard output.Using stderr ensures that error messages are displayed promptly, even if standard output is redirected to a file or another program. It's a good practice to use stderr for error messages to differentiate them from regular program output.

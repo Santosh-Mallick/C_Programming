@@ -24,13 +24,13 @@ int main() {
 }
 
 // OUTPUT
-
 // Contents of the file:
 // Hello From Mars
 
 
-//Explanation(isko nahi likna hai)
+//EXPLANATION(isko nahi likna hai)
 // This program opens a file named "input.txt", reads its contents character by character, and displays them on the screen. If the file does not exist or cannot be opened, it prints an error message.
+
 
 //NOTE(isko nahi likna hai)
 //Q. What is EOF?
