@@ -1,0 +1,1 @@
+C was developed by Dennis Ritchie at Bell Labs in 1972.
